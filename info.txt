@@ -1,8 +1,8 @@
-Клонируем репозиторий и переименовываем главную ветку 'git branch -m master'
-Отправляем изменения на сервер: git push origin -u master
-Ставим галочку в настройках репозитория на пункте: Require a pull request before merging
-Создаем новую ветку 'init': git branch init
-Отправляем изменения на сервер: git push origin -u init
-Переходим на ветку 'init': git checkout init и создаем файл 'index.html': touch index.html
-Вносим изменения в файл 'index.html' и индексируем 'git add index.html', коммитим - 'git commit -m Create index.html'
-Пушим изменения 'git push'
+РљР»РѕРЅРёСЂСѓРµРј СЂРµРїРѕР·РёС‚РѕСЂРёР№ Рё РїРµСЂРµРёРјРµРЅРѕРІС‹РІР°РµРј РіР»Р°РІРЅСѓСЋ РІРµС‚РєСѓ 'git branch -m master'
+РћС‚РїСЂР°РІР»СЏРµРј РёР·РјРµРЅРµРЅРёСЏ РЅР° СЃРµСЂРІРµСЂ: git push origin -u master
+РЎС‚Р°РІРёРј РіР°Р»РѕС‡РєСѓ РІ РЅР°СЃС‚СЂРѕР№РєР°С… СЂРµРїРѕР·РёС‚РѕСЂРёСЏ РЅР° РїСѓРЅРєС‚Рµ: Require a pull request before merging
+РЎРѕР·РґР°РµРј РЅРѕРІСѓСЋ РІРµС‚РєСѓ 'init': git branch init
+РћС‚РїСЂР°РІР»СЏРµРј РёР·РјРµРЅРµРЅРёСЏ РЅР° СЃРµСЂРІРµСЂ: git push origin -u init
+РџРµСЂРµС…РѕРґРёРј РЅР° РІРµС‚РєСѓ 'init': git checkout init Рё СЃРѕР·РґР°РµРј С„Р°Р№Р» 'index.html': touch index.html
+Р’РЅРѕСЃРёРј РёР·РјРµРЅРµРЅРёСЏ РІ С„Р°Р№Р» 'index.html' Рё РёРЅРґРµРєСЃРёСЂСѓРµРј 'git add index.html', РєРѕРјРјРёС‚РёРј - 'git commit -m Create index.html'
+РџСѓС€РёРј РёР·РјРµРЅРµРЅРёСЏ 'git push'
