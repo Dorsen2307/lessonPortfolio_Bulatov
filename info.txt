@@ -4,5 +4,8 @@
 Создаем новую ветку 'init': git branch init
 Отправляем изменения на сервер: git push origin -u init
 Переходим на ветку 'init': git checkout init и создаем файл 'index.html': touch index.html
-Вносим изменения в файл 'index.html' и индексируем 'git add index.html', коммитим - 'git commit -m Create index.html'
+Вносим изменения в файл 'index.html' и индексируем 'git add index.html', коммитим - 'git commit -m "Create index.html"'
+Пушим изменения 'git push'
+Создаем файл 'about.md': touch about.md
+Вносим изменения в файл 'about.md' и индексируем 'git add about.md', коммитим - 'git commit -m "Create about.md"'
 Пушим изменения 'git push'
